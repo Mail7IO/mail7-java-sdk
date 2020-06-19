@@ -3,10 +3,11 @@
 	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
-
+	<name>Mail7 Java Library</name>
 	<groupId>com.mail7.sdk</groupId>
 	<artifactId>java-sdk</artifactId>
 	<version>1.0.0</version>
+	<url>https://github.com/Compile7/mail7-java-sdk</url>
 	<description>Mail7 java SDK contains email and routing rules APIs</description>
 
 	<licenses>
@@ -25,7 +26,13 @@
 			<organizationUrl>https://www.mail7.io</organizationUrl>
 		</developer>
 	</developers>
-
+	
+	<scm>
+		<connection>scm:git:git://github.com/Compile7/mail7-java-sdk.git</connection>
+		<developerConnection>scm:git:ssh://github.com:Compile7/mail7-java-sdk.git</developerConnection>
+		<url>https://github.com/Compile7/mail7-java-sdk</url>
+	</scm>
+	
 	<dependencies>
 
 		<dependency>
