@@ -1,4 +1,4 @@
-package com.mail7.sdk.helper;
+package io.mail7.sdk.helper;
 
 import java.io.BufferedReader;
 import java.io.IOException;
@@ -23,9 +23,10 @@ import javax.crypto.spec.SecretKeySpec;
 import org.apache.commons.codec.binary.Base64;
 
 import com.google.gson.reflect.TypeToken;
-import com.mail7.sdk.util.AsyncHandler;
-import com.mail7.sdk.util.ErrorResponse;
-import com.mail7.sdk.util.Mail7SDK;
+
+import io.mail7.sdk.util.AsyncHandler;
+import io.mail7.sdk.util.ErrorResponse;
+import io.mail7.sdk.util.Mail7SDK;
 
 public class Mail7Request {
 	private Mail7Request() {

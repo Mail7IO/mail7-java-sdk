@@ -25,7 +25,7 @@ Use the following dependency in your project:
 
 ```
 <dependency>
-  <groupId>com.mail7.sdk</groupId>
+  <groupId>io.mail7.sdk</groupId>
   <artifactId>java-sdk</artifactId>
   <version>1.0.0</version>
 </dependency>
@@ -65,7 +65,7 @@ $ cd java-sdk
 `$ mvn install` # Requires maven, download from http://maven.apache.org/download.html
   
 `$ mvn dependency:copy-dependencies`   # This will generate all dependencies here: java-sdk/target/dependency
-The jars are also available at [Maven](https://mvnrepository.com/artifact/com.mail7.sdk/java-sdk).
+The jars are also available at [Maven](https://mvnrepository.com/artifact/io.mail7.sdk/java-sdk).
 
 Select the directory for the latest version and download the jar files.
 

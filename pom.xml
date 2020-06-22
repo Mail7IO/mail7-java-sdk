@@ -3,11 +3,10 @@
 	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
-	<name>Mail7 Java Library</name>
-	<groupId>com.mail7.sdk</groupId>
+
+	<groupId>io.mail7.sdk</groupId>
 	<artifactId>java-sdk</artifactId>
 	<version>1.0.0</version>
-	<url>https://github.com/Compile7/mail7-java-sdk</url>
 	<description>Mail7 java SDK contains email and routing rules APIs</description>
 
 	<licenses>
@@ -21,18 +20,12 @@
 		<developer>
 			<id>support</id>
 			<name>Mail7 Support</name>
-			<email>info@compile7.com</email>
-			<organization>Compile7</organization>
+			<email>support@mail7.io</email>
+			<organization>Mail7</organization>
 			<organizationUrl>https://www.mail7.io</organizationUrl>
 		</developer>
 	</developers>
-	
-	<scm>
-		<connection>scm:git:git://github.com/Compile7/mail7-java-sdk.git</connection>
-		<developerConnection>scm:git:ssh://github.com:Compile7/mail7-java-sdk.git</developerConnection>
-		<url>https://github.com/Compile7/mail7-java-sdk</url>
-	</scm>
-	
+
 	<dependencies>
 
 		<dependency>
@@ -55,17 +48,13 @@
 		</dependency>
 
 	</dependencies>
-	
+
 	<distributionManagement>
-  <snapshotRepository>
-    <id>ossrh</id>
-    <url>https://oss.sonatype.org/content/repositories/snapshots</url>
-  </snapshotRepository>
-  <repository>
-    <id>ossrh</id>
-    <url>https://oss.sonatype.org/service/local/staging/deploy/maven2/</url>
-  </repository>
-</distributionManagement>
+		<snapshotRepository>
+			<id>ossrh</id>
+			<url>https://oss.sonatype.org/content/repositories/snapshots</url>
+		</snapshotRepository>
+	</distributionManagement>
 
 	<build>
 		<plugins>
@@ -83,18 +72,6 @@
 					</execution>
 				</executions>
 			</plugin>
-			
-			<plugin>
-      <groupId>org.sonatype.plugins</groupId>
-      <artifactId>nexus-staging-maven-plugin</artifactId>
-      <version>1.6.7</version>
-      <extensions>true</extensions>
-      <configuration>
-        <serverId>ossrh</serverId>
-        <nexusUrl>https://oss.sonatype.org/</nexusUrl>
-        <autoReleaseAfterClose>true</autoReleaseAfterClose>
-      </configuration>
-    </plugin>
 
 			<plugin>
 				<groupId>org.apache.maven.plugins</groupId>

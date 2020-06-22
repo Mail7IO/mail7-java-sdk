@@ -4,21 +4,22 @@
    Copyright 2020 Mail7.io All rights reserved.
 */
 
-package com.mail7.sdk.api;
+package io.mail7.sdk.api;
 
 import java.util.HashMap;
 import java.util.Map;
 
 import com.google.gson.reflect.TypeToken;
-import com.mail7.sdk.helper.JsonDeserializer;
-import com.mail7.sdk.helper.Mail7Request;
-import com.mail7.sdk.helper.Mail7Validator;
-import com.mail7.sdk.models.responsemodels.EmailResponse;
-import com.mail7.sdk.models.responsemodels.InboxResponse;
-import com.mail7.sdk.models.responsemodels.ApiResponse;
-import com.mail7.sdk.util.AsyncHandler;
-import com.mail7.sdk.util.ErrorResponse;
-import com.mail7.sdk.util.Mail7SDK;
+
+import io.mail7.sdk.helper.JsonDeserializer;
+import io.mail7.sdk.helper.Mail7Request;
+import io.mail7.sdk.helper.Mail7Validator;
+import io.mail7.sdk.models.responsemodels.ApiResponse;
+import io.mail7.sdk.models.responsemodels.EmailResponse;
+import io.mail7.sdk.models.responsemodels.InboxResponse;
+import io.mail7.sdk.util.AsyncHandler;
+import io.mail7.sdk.util.ErrorResponse;
+import io.mail7.sdk.util.Mail7SDK;
 
 public class EmailApi {
 	

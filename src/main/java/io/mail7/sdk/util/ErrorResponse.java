@@ -1,4 +1,4 @@
-package com.mail7.sdk.util;
+package io.mail7.sdk.util;
 
 public class ErrorResponse {
 	private String message;

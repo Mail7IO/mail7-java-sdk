@@ -1,4 +1,4 @@
-package com.mail7.sdk.util;
+package io.mail7.sdk.util;
 
 import com.google.gson.annotations.Expose;
 import com.google.gson.annotations.SerializedName;

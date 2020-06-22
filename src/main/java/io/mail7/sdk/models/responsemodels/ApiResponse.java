@@ -1,11 +1,11 @@
 /* 
  * 
- * Created by Mail7 Development Team
-   Copyright 2019 Mail7 All rights reserved.
+ * Created by LoginRadius Development Team
+   Copyright 2019 LoginRadius Inc. All rights reserved.
    
  */
 
-package com.mail7.sdk.models.responsemodels;
+package io.mail7.sdk.models.responsemodels;
 
 import com.google.gson.annotations.Expose;
 import com.google.gson.annotations.SerializedName;
@@ -13,14 +13,14 @@ import com.google.gson.annotations.SerializedName;
 // <summary>
 //	Response containing Definition of Complete Profile data
 // </summary>
-public class EmailResponse {
+public class ApiResponse {
 
 	@SerializedName("status")
 	@Expose
 	private String status;
-	@SerializedName("data")
+	@SerializedName("message")
 	@Expose
-	private Object data;
+	private String message;
 
 	public String getStatus() {
 		return status;
@@ -30,12 +30,12 @@ public class EmailResponse {
 		this.status = status;
 	}
 
-	public Object getData() {
-		return data;
+	public String getMessage() {
+		return message;
 	}
 
-	public void setData(Object data) {
-		this.data = data;
+	public void setMessage(String message) {
+		this.message = message;
 	}
 
 }

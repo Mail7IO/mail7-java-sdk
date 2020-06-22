@@ -1,4 +1,4 @@
-package com.mail7.sdk.util;
+package io.mail7.sdk.util;
 
 import java.util.Map;
 import java.util.TreeMap;
@@ -52,7 +52,7 @@ public class Mail7SDK {
 	}
 
 	/**
-	 * Creates url after appending mail7 api root url and query parameters
+	 * Creates url after appending loginradius api root url and query parameters
 	 * 
 	 * @param url       url for appending to the api url
 	 * @param queryArgs extra parameters for sending with url

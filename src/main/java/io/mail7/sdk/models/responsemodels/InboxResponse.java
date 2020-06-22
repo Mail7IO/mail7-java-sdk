@@ -1,11 +1,11 @@
 /* 
  * 
- * Created by Mail7 Development Team
-   Copyright 2019 Mail7 All rights reserved.
+ * Created by LoginRadius Development Team
+   Copyright 2019 LoginRadius Inc. All rights reserved.
    
  */
 
-package com.mail7.sdk.models.responsemodels;
+package io.mail7.sdk.models.responsemodels;
 
 import com.google.gson.annotations.Expose;
 import com.google.gson.annotations.SerializedName;

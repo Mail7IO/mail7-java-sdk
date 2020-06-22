@@ -1,4 +1,4 @@
-package com.mail7.sdk.helper;
+package io.mail7.sdk.helper;
 
 public class Mail7Validator {
 	private Mail7Validator() {

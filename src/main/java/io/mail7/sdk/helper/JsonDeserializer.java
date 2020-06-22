@@ -1,4 +1,4 @@
-package com.mail7.sdk.helper;
+package io.mail7.sdk.helper;
 
 import com.google.gson.Gson;
 import com.google.gson.reflect.TypeToken;
