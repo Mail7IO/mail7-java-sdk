@@ -7,7 +7,9 @@
 	<groupId>io.mail7.sdk</groupId>
 	<artifactId>java-sdk</artifactId>
 	<version>1.0.0</version>
-	<description>Mail7 java SDK contains email and routing rules APIs</description>
+	<name>Mail7 JavaSDK</name>
+	<description>Mail7 Disposable Email java SDK contains email and routing rules APIs</description>
+	<url>https://github.com/Compile7/mail7-java-sdk</url>
 
 	<licenses>
 		<license>
@@ -26,6 +28,11 @@
 		</developer>
 	</developers>
 
+	<scm>
+		<connection>scm:git:git@github.com:Compile7/mail7-java-sdk.git</connection>
+		<developerConnection>scm:git:git@github.com:Compile7/mail7-java-sdk.git</developerConnection>
+		<url>git@github.com:Compile7/mail7-java-sdk.git</url>
+	</scm>
 	<dependencies>
 
 		<dependency>
@@ -48,12 +55,15 @@
 		</dependency>
 
 	</dependencies>
-
 	<distributionManagement>
 		<snapshotRepository>
 			<id>ossrh</id>
 			<url>https://oss.sonatype.org/content/repositories/snapshots</url>
 		</snapshotRepository>
+		<repository>
+			<id>ossrh</id>
+			<url>https://oss.sonatype.org/service/local/staging/deploy/maven2/</url>
+		</repository>
 	</distributionManagement>
 
 	<build>
@@ -63,23 +73,23 @@
 				<artifactId>maven-gpg-plugin</artifactId>
 				<version>1.5</version>
 				<executions>
-					<execution>
-						<id>sign-artifacts</id>
-						<phase>verify</phase>
-						<goals>
-							<goal>sign</goal>
-						</goals>
-					</execution>
-				</executions>
+                    <execution>
+                        <id>sign-artifacts</id>
+                        <phase>verify</phase>
+                        <goals>
+                            <goal>sign</goal>
+                        </goals>
+                    </execution>
+                </executions>
 			</plugin>
 
 			<plugin>
 				<groupId>org.apache.maven.plugins</groupId>
 				<artifactId>maven-compiler-plugin</artifactId>
-				<version>2.3.2</version>
+				<version>3.5.1</version>
 				<configuration>
-					<source>1.6</source>
-					<target>1.6</target>
+					<source>1.8</source>
+					<target>1.8</target>
 				</configuration>
 			</plugin>
 			<plugin>

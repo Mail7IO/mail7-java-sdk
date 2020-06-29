@@ -6,7 +6,7 @@ public class ErrorResponse {
 
 	/**
 	 * 
-	 * @return The message
+	 * @return The Status
 	 */
 	public String getStatus() {
 		return status == null ? status : "";
@@ -14,7 +14,7 @@ public class ErrorResponse {
 
 	/**
 	 * 
-	 * @param message The Message
+	 * @param status The Status
 	 */
 	public void setStatus(final String status) {
 		this.status = status;
